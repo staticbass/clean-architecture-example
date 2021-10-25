@@ -1,6 +1,6 @@
 import {Order} from '../../domain/Order'
 
 export interface IOrdersRepository {
-  save(Order: Order): Promise<void>
-  delete(Order: Order): Promise<void>
+  save(order: Order): Promise<void>
+  delete(order: Order): Promise<void>
 }
